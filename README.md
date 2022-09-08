@@ -10,7 +10,7 @@ The purpose of this project is to refactor the previously-written VBA code in or
 The refactored code resulted in a quicker run of the analysts as shown in the two figures below. The refactored code produced the output almost 6 times faster than the original.
 
 ![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018.png?raw=true)
-
+![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/Results_2018.png?raw=true
 
 ![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018_Refactored.png?raw=true)
 

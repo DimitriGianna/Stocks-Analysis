@@ -7,6 +7,7 @@ The purpose of this project is to refactor the previously-written VBA code in or
 
 ## Results
 
+The refactored code resulted in a quicker run of the analysts as shown in the two figures below. The refactored code produced the output almost 6 times faster than the original.
 
 ![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018.png?raw=true)
 
@@ -14,7 +15,9 @@ The purpose of this project is to refactor the previously-written VBA code in or
 ![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018_Refactored.png?raw=true)
 
 
-'1a) Create a ticker Index
+
+```
+ '1a) Create a ticker Index
     tickerIndex = 0
 
     '1b) Create three output arrays
@@ -70,3 +73,5 @@ Next i
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
+
+

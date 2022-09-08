@@ -3,17 +3,17 @@
 This project takes a look at how the refactoring of VBA script affects its output.
 
 ### Purpose and Background
-The purpose of this project is to refactor the previously-written VBA code in order to collect stock information from the dataset more quickly and more efficiently. The original code written calculated the Total Daily Volume and Percent Return of 12 different stocks in 2017 and 2018.
+The purpose of this project is to refactor the previously written VBA code in order to collect stock information from the dataset more quickly and more efficiently. The original code written calculated the Total Daily Volume and Percent Return of 12 different stocks in 2017 and 2018.
 
 ## Results
 
-The refactored code resulted in a quicker run of the analysts as shown in the two figures below. The refactored code produced the output almost 6 times faster than the original.
+The refactored code resulted in a quicker run of the analysts as shown in the two figures below. The refactored code produced identical results almost 6 times faster than the original.
 
 ![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018.png?raw=true)
-![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/Results_2018.png?raw=true
+![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/Results_2018.png?raw=true)
 
 ![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/VBA_Challenge_2018_Refactored.png?raw=true)
-
+![image_name](https://github.com/DimitriGianna/Stocks-Analysis/blob/main/Resources/Results_2018_Refactored.png?raw=true)
 
 
 ```
@@ -71,7 +71,22 @@ Next i
         Cells(4 + i, 1).Value = tickers(i)
         Cells(4 + i, 2).Value = tickerVolumes(i)
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
-        
-    Next i
+     
+     
+     Next i
+```
 
 
+
+
+
+
+
+## Summary
+
+### Advantages and Disadvantages of Refactoring Code
+Some advantages of refactoring code include a cleaner and more logical layout which will often make it run smoother as well as easier to maintain, debug or modify.
+Some disadvantages could be the time commitment required to properly refactor code as well as the possibility to make mistakes while modifying it.
+
+### Advantages of Refactoring STock Analysis
+In the case of this stock analysis, refactoring the code proved to be a success since the macro was able to run much faster as shown in the results.

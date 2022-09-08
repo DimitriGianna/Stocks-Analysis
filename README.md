@@ -88,5 +88,5 @@ Next i
 Some advantages of refactoring code include a cleaner and more logical layout which will often make it run smoother as well as easier to maintain, debug or modify.
 Some disadvantages could be the time commitment required to properly refactor code as well as the possibility to make mistakes while modifying it.
 
-### Advantages of Refactoring STock Analysis
+### Advantages of Refactoring Stock Analysis
 In the case of this stock analysis, refactoring the code proved to be a success since the macro was able to run much faster as shown in the results.
